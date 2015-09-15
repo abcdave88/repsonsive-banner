@@ -102,7 +102,7 @@ img {
     position: relative;
     margin: 50px;
     min-height: 6em;
-    width:30%;
+    width:7.5em;
     border-radius: 0.5em;
     background-color: #301D19;
   }
@@ -113,7 +113,7 @@ img {
     margin-left: 0.5em;
     color: white;
     width: 55%;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
   }
 
   .banner h2{
