@@ -93,9 +93,40 @@ img {
 
 }
 
-@media all and (max-width: 772px) and (min-width: 500px) {
-  p {
-    display: hidden;
+@media all and (max-width: 899px) and (min-width: 1px) {
+  .hidden {
+    display: none;
+  }
+
+  .banner{
+    position: relative;
+    margin: 50px;
+    min-height: 6em;
+    width:30%;
+    border-radius: 0.5em;
+    background-color: #301D19;
+  }
+
+    .banner h1{
+    position: absolute;
+    font-size: 1em;
+    margin-left: 0.5em;
+    color: white;
+    width: 55%;
+    letter-spacing: 5px;
+  }
+
+  .banner h2{
+    position: absolute;
+    padding-left: 1.5em;
+    top: 71%;
+    width: 97.1%;
+    background-color: #fff38c;
+    background-image: linear-gradient(#fff38c, rgb(196,139,96));
+    padding-left: 3%;
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    font-size: 0.9em;
   }
 
  } 
