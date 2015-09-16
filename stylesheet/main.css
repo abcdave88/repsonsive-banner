@@ -1,4 +1,5 @@
 .banner{
+  display: block;
   position: relative;
   margin: 50px;
   min-height: 8em;
@@ -30,7 +31,7 @@
     border-bottom-right-radius: 0.4em;
 }
 
-img{
+.banner img{
   position: absolute;
   right: 20%;
   bottom: 1%;
@@ -38,7 +39,7 @@ img{
   height: 6.7em;
 }
 
-p {
+.banner p {
   position: absolute;
   left: 81%;
   bottom: 0%;
@@ -73,7 +74,7 @@ p {
     font-size: 1.5em;
   }
 
-  p {
+.banner p {
     position: absolute;
     left: 81%;
     bottom: 0%;
@@ -83,7 +84,7 @@ p {
     font-weight: 900
 }
 
-img {
+.banner img {
     position: absolute;
     right: 20%;
     bottom: 1%;
@@ -94,7 +95,7 @@ img {
 }
 
 @media all and (max-width: 899px) and (min-width: 1px) {
-  .hidden {
+  .banner .hidden {
     display: none;
   }
 

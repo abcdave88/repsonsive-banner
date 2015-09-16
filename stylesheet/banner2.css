@@ -1,0 +1,45 @@
+.banner2{
+  background-color: rgb(225,226,234);
+  position: relative;
+  display: block;
+  margin: 50px;
+  min-height: 5.9em;
+  width:55%;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  /*border-radius: 0.5em;*/
+  /*border: 1px solid black;*/
+}
+
+.banner2 img{
+  position: absolute;
+  left: 2%;
+  width: 37%;
+  height: 5.7em;
+  top: 0.1em;
+}
+
+.banner2 div{
+  position: relative;
+  left: 40%;
+  width: 60%;  
+  height: 1.47em;
+}
+
+.p1 {
+  background-color: rgb(55,183,236);
+  border-top-right-radius: 1em;
+}
+
+.p2 {
+  /*background-color: rgb(55,183,236);*/
+}
+
+.p3 {
+ background-color: rgb(96,160,177);
+}
+
+.p4 {
+   background-color: rgb(21,22,53);
+   border-bottom-right-radius: 1em;
+}
